@@ -7,14 +7,14 @@ public class Card {
     public Card(String suite, String pipValue) {
         this.suite = suite;
         this.pipValue = pipValue;
-        getCardValue();
+        setCardValue();
     }
 
     // -------------
     // Black Jack specific method
     // Convert jack, queen, & king to their numeric values
     // Set rawValue and altValue based on card pip value
-    private void getCardValue() {
+    private void setCardValue() {
 
         // Handle special case of an ace (1 or 11) with altValue field
         if (this.pipValue.equals("ace")) {
@@ -31,12 +31,17 @@ public class Card {
         }
     }
 
+    public int getCardValue() {
+        return rawValue;
+    }
+
     // --------
     // toString()
     // Format: Card {[pipValue] OF [suite]. #: [value]}
     // Ex. Card {queen OF clubs | #: 10}
     @Override
     public String toString() {
-        return String.format("Card {%s OF %s | #: %d}", this.pipValue, this.suite, this.rawValue);
+//        return String.format("Card {%s OF %s | #: %d}", this.pipValue, this.suite, this.rawValue);
+        return String.format("%s of %s", this.pipValue, this.suite);
     }
 }
