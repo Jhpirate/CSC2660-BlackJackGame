@@ -33,6 +33,7 @@ public class Card {
 
     public int getCardValue() {
         return rawValue;
+        //TODO: Handle Ace special case and hoe to return thr alt value
     }
 
     // --------
