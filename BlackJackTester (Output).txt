@@ -1,0 +1,75 @@
+--- WELCOME TO BLACK JACK ---
+Current Balance: $100.00
+How much do you want to bet?: 
+20
+Dealer Hand: ['HIDDEN', 7 of spades]
+User Hand: [10 of diamonds, king of hearts]
+User Total: 20
+Hit or Stand? (H or S)
+s
+You have stood on: 20
+
+Dealer Hand: [9 of diamonds, 7 of spades, king of clubs]
+Dealer Total: 26
+
+----------------------------
+Dealer Bust
+User Wins!
+
+Play Again? (Y or N):
+y
+
+--- WELCOME TO BLACK JACK ---
+Current Balance: $120.00
+How much do you want to bet?: 
+50
+Dealer Hand: ['HIDDEN', 4 of clubs]
+User Hand: [2 of spades, 2 of hearts]
+User Total: 4
+Hit or Stand? (H or S)
+h
+User Hand: [2 of spades, 2 of hearts, 5 of spades]
+User Total: 9
+Hit or Stand? (H or S)
+h
+User Hand: [2 of spades, 2 of hearts, 5 of spades, queen of clubs]
+User Total: 19
+Hit or Stand? (H or S)
+s
+You have stood on: 19
+
+Dealer Hand: [9 of hearts, 4 of clubs, 5 of diamonds]
+Dealer Total: 18
+
+----------------------------
+User Won
+
+Play Again? (Y or N):
+y
+
+--- WELCOME TO BLACK JACK ---
+Current Balance: $170.00
+How much do you want to bet?: 
+10
+Dealer Hand: ['HIDDEN', 2 of hearts]
+User Hand: [8 of clubs, 10 of clubs]
+User Total: 18
+Hit or Stand? (H or S)
+h
+User Hand: [8 of clubs, 10 of clubs, ace of spades]
+User Total: 19
+Hit or Stand? (H or S)
+h
+User Hand: [8 of clubs, 10 of clubs, ace of spades, queen of diamonds]
+User Total: 29
+
+Dealer Hand: [jack of spades, 2 of hearts, queen of hearts]
+Dealer Total: 22
+
+----------------------------
+User Bust
+
+Play Again? (Y or N):
+n
+
+Process finished with exit code 0
