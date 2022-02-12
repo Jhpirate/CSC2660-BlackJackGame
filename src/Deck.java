@@ -43,6 +43,8 @@ public class Deck {
         deck.clear();
         buildDeck(1);
         shuffleDeck();
+        shuffleDeck();
+        shuffleDeck();
     }
 
     // -------------

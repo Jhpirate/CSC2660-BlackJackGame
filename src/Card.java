@@ -31,9 +31,17 @@ public class Card {
         }
     }
 
+    public String getPipValue() {
+        return pipValue;
+    }
+
     public int getCardValue() {
         return rawValue;
-        //TODO: Handle Ace special case and hoe to return thr alt value
+    }
+
+    // only used for aces
+    public int getAltCardValue() {
+        return altValue;
     }
 
     // --------
