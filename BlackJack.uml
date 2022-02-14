@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BlackJack</OriginalElement>
+  <nodes>
+    <node x="284.5" y="321.0">BlackJackTester</node>
+    <node x="0.0" y="0.0">BlackJack</node>
+    <node x="0.0" y="321.0">Deck</node>
+    <node x="280.0" y="0.0">Card</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="220.0" y="276.5" />
+  <SelectedNodes>
+    <node>BlackJackTester</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
